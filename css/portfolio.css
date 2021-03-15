@@ -544,10 +544,6 @@ img {
   margin-bottom: 9px;
 }
 
-.logo-second-part-dark {
-  color: var(--main-color-dark-backgr);
-}
-
 .address-footer-link {
   font-weight: 400;
   font-size: 14px;
@@ -561,6 +557,7 @@ img {
 }
 
 .social-list-our-projekt {
+  margin-top: 12px;
   margin-left: 70px;
   /*margin-top: 12px;*/
 }
@@ -569,8 +566,8 @@ img {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
-  text-transform: uppercase;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--main-color-dark-backgr);
   margin-bottom: 20px;
 }
@@ -579,7 +576,7 @@ img {
   background: var(--social-link-background-dark);
 }
 
-.dark-social .social-list-icon {
+.dark-social .social .social-list-icon {
   fill: var(--main-color-dark-backgr);
 }
 
@@ -588,6 +585,7 @@ img {
 }
 
 .subscription-form-title {
+  width: 100%;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;

@@ -1,55 +1,50 @@
 /* ============== FOOTER ============== */
 .footer {
   background-color: var(--backgr-color-first);
-}
-.footer > .container {
+
+&> .container {
   align-items: flex-start;
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer .logo {
+.logo {
   display: block;
   margin-bottom: 20px;
 }
 
-.footer .addres-list-item:not(:last-child) {
+.addres-list-item:not(:last-child) {
   margin-bottom: 9px;
 }
-.logo-second-part-dark {
-  color: var(--main-color-dark-backgr);
 }
+
 .address-footer-link {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: var(--addres-second-color);
+    @include font(400, 14px, 1.714, 0.03em);
+    color: var(--addres-second-color);
 }
 .location {
   color: var(--main-color-dark-backgr);
 }
 
 .social-list-our-projekt {
+  margin-top: 12px;
   margin-left: 70px;
   /*margin-top: 12px;*/
 }
 
-.social-list-invitation {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.142;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  color: var(--main-color-dark-backgr);
-  margin-bottom: 20px;
+.social-list-invitation  {
+    @include font(700, 14px, 1.142, 0.03em);
+    text-transform: uppercase;
+    color: var(--main-color-dark-backgr);
+    margin-bottom: 20px;
 }
 
 .dark-social {
   background: var(--social-link-background-dark);
-}
 
-.dark-social .social-list-icon {
+
+.social .social-list-icon {
   fill: var(--main-color-dark-backgr);
+}
 }
 
 .subscription-form {
@@ -57,13 +52,12 @@
 }
 
 .subscription-form-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--main-color-dark-backgr);
-  margin-bottom: 20px;
+    width:100%;
+
+    @include font(700, 14px, 1.143, 0.03em);
+    text-transform: uppercase;
+    color: var(--main-color-dark-backgr);
+    margin-bottom: 20px;
 }
 
 .subscription-form-input {
