@@ -1,14 +1,14 @@
 /* ============== ADVANTAGES SECTION ============== */
 
-.advantages > .container {
+.our-service > .container {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.advantages-list {
+.services-list {
     display: flex;
 }
 
-.advantages-list-item {
+.service-list-item {
     padding: 3px;
     font-size: 14px;
     letter-spacing: 0.03em;
@@ -18,7 +18,7 @@
     }
 }
 
-.advantages-icon-background {
+.service-icon-background {
     width:auto;
     height: 120px;
     background: var(--backgr-color-second);
@@ -28,12 +28,12 @@
     align-items: center;
 }
 
-.advantages-icon {
+.service-icon {
     width: 70px;
     height: 70px;
 }
 
-.advantages-title {
+.services-title {
     font-weight: 700;
     line-height: 1.142;
     text-transform: uppercase;
@@ -43,7 +43,7 @@
     margin-bottom: 10px;
 }
 
-.advantages-description {
+.services-description {
     font-weight: 400;
     line-height: 1.714;
 
