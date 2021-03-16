@@ -25,39 +25,18 @@
 
 }
 
-.close-button-icon {
-    width: 18px;
-    height: 18px;
-
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    .close-button:active & {
-        fill: rgb(11, 69, 228);
-    }
-}
-
 .close-button {
     width: 30px;
     height: 30px;
     position: absolute;
     top: 8px;
     right: 8px;
-    //border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
 
     &:hover,
     &:focus {
-        border: 1px solid rgba(9, 13, 238, 0.3);
-        outline: none;
-    }
-    &:active {
-        border: 1px solid rgba(251, 142, 156, 1); 
-        border-radius: 50%; 
-        outline: none;
+        background-color: blue;
     }
 }
 
