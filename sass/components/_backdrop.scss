@@ -48,16 +48,17 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
+    background-color: transparent;
 
     &:hover,
     &:focus {
-        border: 4px solid rgba(0, 0, 0, 0.3);
-        outline: none;
+     fill: var(--accent-color);
+        
     }
     &:active {
-        border: 4px solid rgba(251, 142, 156, 1); 
+        fill: var(--accent-color);
         border-radius: 50%; 
-        outline: none;
+        
     }
 }
 
