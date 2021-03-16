@@ -1,7 +1,0 @@
-
-
-.modal-form-policy:checked + .modal-form-policy-text::before {
-  background-image: url(../icon\ check.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: none;
